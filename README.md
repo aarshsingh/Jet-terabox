@@ -4,12 +4,14 @@ Terabox API/Base Code [**HERE**](https://t.me/Privates_Bots/7212).
 
 ---
 ### <b>Video Guides</b>
-- [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://index.jetmirror.xyz/0:findpath?id=1a-CWPnONLLaaCXTiux3E2sZQeyxns-7Q&view=true)
+- [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://youtu.be/rTZ3QnuxQMA)
 
-- [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://index.jetmirror.xyz/0:findpath?id=1_DsA6NhjUc_n9YORE2iFVMWCcj9RcLJr&view=true)
+- [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://youtu.be/b5lVc6Gt5pw)
+
+- [![Deploy on Render](https://render.com/images/deploy-to-render-button.svg)](https://youtu.be/GC21_UpDHlY)
 ---
 
-<b>Fill this Values in <a href='https://github.com/Hrishi2861/Terabox-Downloader-Bot/blob/main/config.env'>config.env</a></b>
+<b>Fill this Values in [config.env](config.env)</b>
 - `BOT_TOKEN`: The Telegram Bot Token that you got from [@BotFather](https://t.me/BotFather). `Str`
 - `TELEGRAM_API`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Int`
 - `TELEGRAM_HASH`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Str`
@@ -131,3 +133,8 @@ sudo docker-compose start
 ```
 sudo docker-compose up
 ```
+
+---
+## If anyone want requirements.txt to run without Docker, access it <a href='https://gist.github.com/Hrishi2861/423aaf4893170f113bd96e59e1d7049a'>Here</a>.
+
+Cmd to start the Bot: bash start.sh
