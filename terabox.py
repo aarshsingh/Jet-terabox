@@ -57,12 +57,15 @@ async def start_command(client, message):
     developer_button = InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡️", url="https://t.me/Xsupprtbot")
     reply_markup = InlineKeyboardMarkup([[join_button, developer_button]])
     video_file_id = "/app/Jet-Mirror.mp4"
-    await client.send_video(
-        chat_id=message.chat.id,
-        video=video_file_id,
-        caption=reply_message,
-        reply_markup=reply_markup
-    )
+    if os.path.exists(video_file_id):
+        await client.send_video(
+            chat_id=message.chat.id,
+            video=video_file_id,
+            caption=reply_message,
+            reply_markup=reply_markup
+        )
+    else:
+        await message.reply_text(reply_message, reply_markup=reply_markup)
 
 async def is_user_member(client, user_id):
     try:
